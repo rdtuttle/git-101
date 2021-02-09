@@ -1,14 +1,24 @@
 body {
 	margin:0;
 	font-family: Helvetica;
+	background-color: #D23333;
 }
+
+h1 {
+	font-weight: 100;
+	color: white;
+}
+
 #logo {
 	height:80px;
 	width: 80px;
+	display: block;
+
 }
 #container {
   display:flex;
   align-items: center;
   justify-content: center;
   height:100vh;
+  flex-direction: column;
 }
